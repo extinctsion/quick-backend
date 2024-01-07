@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wEPWAdACsNhH4Xn6Ly9Knf+6Bi0w6YV2w1JOKT8w4wG2ReM0Iqz/kfsxXARi8ypM7v6947lhSJtEf8RlVi3cfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\extinctsion\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\extinctsion\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\extinctsion\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\extinctsion\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\extinctsion\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\extinctsion\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
