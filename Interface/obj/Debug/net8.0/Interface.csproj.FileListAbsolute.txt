@@ -1,0 +1,12 @@
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\bin\Debug\net8.0\Interface.deps.json
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\bin\Debug\net8.0\Interface.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\bin\Debug\net8.0\Interface.pdb
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.AssemblyInfoInputs.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.AssemblyInfo.cs
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.csproj.CoreCompileInputs.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.sourcelink.json
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\refint\Interface.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.pdb
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\ref\Interface.dll

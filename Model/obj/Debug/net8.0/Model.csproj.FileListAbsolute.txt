@@ -1,0 +1,14 @@
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\bin\Debug\net8.0\Model.deps.json
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\bin\Debug\net8.0\Model.runtimeconfig.json
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\bin\Debug\net8.0\Model.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\bin\Debug\net8.0\Model.pdb
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.AssemblyInfoInputs.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.AssemblyInfo.cs
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.csproj.CoreCompileInputs.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.sourcelink.json
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\refint\Model.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.pdb
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\Model.genruntimeconfig.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\obj\Debug\net8.0\ref\Model.dll
