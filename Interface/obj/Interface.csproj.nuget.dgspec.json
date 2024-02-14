@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Interface\\Interface.csproj": {}
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Interface\\Interface.csproj": {
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Interface\\Interface.csproj",
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Interface\\Interface.csproj",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
         "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Interface\\obj\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",

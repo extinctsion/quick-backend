@@ -1,17 +1,141 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\Service.csproj": {}
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\Service.csproj": {
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\Service.csproj",
-        "projectName": "Service",
-        "projectPath": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\extinctsion\\source\\repos\\QuickURL\\Service\\obj\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
+        "projectName": "Interface",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +164,202 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
+        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj"
+              },
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj"
+              },
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj"
+              },
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
             }
           },
           "imports": [
