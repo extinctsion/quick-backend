@@ -10,3 +10,7 @@ D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\refint\Interface.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.pdb
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\ref\Interface.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\bin\Debug\net8.0\Model.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\bin\Debug\net8.0\Model.pdb
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.csproj.AssemblyReference.cache
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Interface\obj\Debug\net8.0\Interface.csproj.CopyComplete

@@ -96,7 +96,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -108,6 +112,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -217,6 +227,9 @@
             "projectReferences": {
               "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
                 "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj"
+              },
+              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
+                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj"
               }
             }
           }

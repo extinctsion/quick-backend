@@ -1,7 +1,10 @@
 using Data.QuickDb;
+using Interface.ShortnerInterface.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Repository.ShortnerRepository;
 using Serilog;
+using Service.Service;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
@@ -26,31 +29,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddDbContext<QuickDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IShortnerRepository, ShortnerRepository>();
+builder.Services.AddScoped<IShortnerService, ShortnerService>();
+
+
 var app = builder.Build();
 
-//builder.Services.AddCors(options =>
-//{
-//    options.AddDefaultPolicy(
-//        policy =>
-//        {
-//            policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
-//        });
-//});
-
-
-
-//builder.Services.AddDbContext<QuickDbContext>(options =>
-//{
-//    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
-//    options.UseLowerCaseNamingConvention();
-//});
-
-//Adding PostgresQL connection string
-
-//services.AddDbContext<QuickDbContext>(options =>
-//    options.UseNpgsql(conn));
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

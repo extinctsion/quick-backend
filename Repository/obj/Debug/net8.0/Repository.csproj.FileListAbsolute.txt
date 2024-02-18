@@ -16,3 +16,5 @@ D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.0\refint\Repository.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.0\Repository.pdb
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\bin\Debug\net8.0\Interface.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\bin\Debug\net8.0\Interface.pdb
