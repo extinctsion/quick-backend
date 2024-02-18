@@ -129,3 +129,7 @@ D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\r
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service\bin\Debug\net8.0\System.Security.Permissions.dll
