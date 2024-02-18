@@ -1,0 +1,312 @@
+2024-02-16 23:04:48.502 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-02-16 23:04:48.729 +05:30 [DBG] Hosting starting
+2024-02-16 23:04:49.734 +05:30 [INF] Now listening on: https://localhost:7297
+2024-02-16 23:04:49.736 +05:30 [INF] Now listening on: http://localhost:5152
+2024-02-16 23:04:49.737 +05:30 [DBG] Loaded hosting startup assembly Service
+2024-02-16 23:04:49.738 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-02-16 23:04:49.739 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-02-16 23:04:49.740 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-16 23:04:49.742 +05:30 [INF] Hosting environment: Development
+2024-02-16 23:04:49.743 +05:30 [INF] Content root path: D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Service
+2024-02-16 23:04:49.744 +05:30 [DBG] Hosting started
+2024-02-16 23:04:50.014 +05:30 [DBG] Connection id "0HN1F2M9SLL8H" accepted.
+2024-02-16 23:04:50.014 +05:30 [DBG] Connection id "0HN1F2M9SLL8I" accepted.
+2024-02-16 23:04:50.030 +05:30 [DBG] Connection id "0HN1F2M9SLL8H" started.
+2024-02-16 23:04:50.043 +05:30 [DBG] Connection id "0HN1F2M9SLL8I" started.
+2024-02-16 23:04:54.581 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" accepted.
+2024-02-16 23:04:54.610 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" started.
+2024-02-16 23:04:54.744 +05:30 [DBG] Connection 0HN1F2M9SLL8J established using the following protocol: "Tls12"
+2024-02-16 23:04:54.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2024-02-16 23:04:55.289 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-02-16 23:04:55.416 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-02-16 23:04:55.480 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-02-16 23:04:55.490 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 503.0794ms
+2024-02-16 23:04:55.593 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-16 23:04:55.618 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 24.8922ms
+2024-02-16 23:04:55.658 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2024-02-16 23:04:56.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 371.3993ms
+2024-02-16 23:04:56.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2024-02-16 23:04:56.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 313.4666ms
+2024-02-16 23:05:00.112 +05:30 [DBG] Authentication of the HTTPS connection timed out.
+2024-02-16 23:05:00.112 +05:30 [DBG] Authentication of the HTTPS connection timed out.
+2024-02-16 23:05:00.120 +05:30 [DBG] Connection id "0HN1F2M9SLL8I" stopped.
+2024-02-16 23:05:00.120 +05:30 [DBG] Connection id "0HN1F2M9SLL8H" stopped.
+2024-02-16 23:05:00.127 +05:30 [DBG] Connection id "0HN1F2M9SLL8H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:05:00.127 +05:30 [DBG] Connection id "0HN1F2M9SLL8I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:05:20.756 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" received FIN.
+2024-02-16 23:05:20.768 +05:30 [DBG] The connection queue processing loop for 0HN1F2M9SLL8J completed.
+2024-02-16 23:05:20.771 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" is closed. The last processed stream ID was 7.
+2024-02-16 23:05:20.773 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:05:20.787 +05:30 [DBG] Connection id "0HN1F2M9SLL8J" stopped.
+2024-02-16 23:05:44.355 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" accepted.
+2024-02-16 23:05:44.365 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" started.
+2024-02-16 23:05:44.370 +05:30 [DBG] Connection 0HN1F2M9SLL8K established using the following protocol: "Tls12"
+2024-02-16 23:05:44.378 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7297/api - application/json-patch+json 351
+2024-02-16 23:05:44.382 +05:30 [DBG] POST requests are not supported
+2024-02-16 23:05:44.384 +05:30 [INF] No CORS policy found for the specified request.
+2024-02-16 23:05:44.413 +05:30 [DBG] 1 candidate(s) found for the request path '/api'
+2024-02-16 23:05:44.416 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)' with route pattern 'api' is valid for the request path '/api'
+2024-02-16 23:05:44.420 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2024-02-16 23:05:44.424 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2024-02-16 23:05:44.463 +05:30 [INF] Route matched with {action = "ShortenUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ShortenUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2024-02-16 23:05:44.467 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-16 23:05:44.470 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-02-16 23:05:44.472 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-16 23:05:44.474 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-16 23:05:44.476 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-16 23:05:44.479 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:05:46.307 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-02-16 23:05:46.426 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:05:46.480 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' ...
+2024-02-16 23:05:46.484 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' using the name '' in request data ...
+2024-02-16 23:05:46.487 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-02-16 23:05:46.490 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-02-16 23:05:46.548 +05:30 [DBG] Connection id "0HN1F2M9SLL8K", Request id "0HN1F2M9SLL8K:00000001": started reading request body.
+2024-02-16 23:05:46.549 +05:30 [DBG] Connection id "0HN1F2M9SLL8K", Request id "0HN1F2M9SLL8K:00000001": done reading request body.
+2024-02-16 23:05:46.640 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2024-02-16 23:05:46.642 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2024-02-16 23:05:46.644 +05:30 [DBG] Attempting to validate the bound parameter 'originalUrl' of type 'System.String' ...
+2024-02-16 23:05:46.653 +05:30 [DBG] Done attempting to validate the bound parameter 'originalUrl' of type 'System.String'.
+2024-02-16 23:05:47.497 +05:30 [DBG] Entity Framework Core 8.0.2 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-02-16 23:05:47.558 +05:30 [DBG] 'QuickDbContext' generated a temporary value for the property 'Shortner.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-16 23:05:47.647 +05:30 [DBG] Context 'QuickDbContext' started tracking 'Shortner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-16 23:05:47.658 +05:30 [DBG] SaveChanges starting for 'QuickDbContext'.
+2024-02-16 23:05:47.663 +05:30 [DBG] DetectChanges starting for 'QuickDbContext'.
+2024-02-16 23:05:47.677 +05:30 [DBG] DetectChanges completed for 'QuickDbContext'.
+2024-02-16 23:05:47.775 +05:30 [DBG] Creating DbConnection.
+2024-02-16 23:05:47.812 +05:30 [DBG] Created DbConnection. (34ms).
+2024-02-16 23:05:47.815 +05:30 [DBG] Opening connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:05:54.363 +05:30 [DBG] Opened connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:05:54.376 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-16 23:05:54.383 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-02-16 23:05:54.390 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2024-02-16 23:05:54.401 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-02-16 23:05:54.663 +05:30 [INF] Executed DbCommand (262ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-02-16 23:05:54.696 +05:30 [DBG] The foreign key property 'Shortner.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-02-16 23:05:54.709 +05:30 [DBG] Closing data reader to 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:05:54.755 +05:30 [DBG] A data reader for 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' is being disposed after spending 48ms reading results.
+2024-02-16 23:05:54.794 +05:30 [DBG] Closing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:05:54.817 +05:30 [DBG] Closed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (23ms).
+2024-02-16 23:05:54.840 +05:30 [DBG] An entity of type 'Shortner' tracked by 'QuickDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-02-16 23:05:54.844 +05:30 [DBG] SaveChanges completed for 'QuickDbContext' with 1 entities written to the database.
+2024-02-16 23:05:54.853 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-02-16 23:05:54.858 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-02-16 23:05:54.859 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-02-16 23:05:54.860 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-02-16 23:05:54.862 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-02-16 23:05:54.864 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-16 23:05:54.930 +05:30 [INF] Executed action Service.Controllers.ShortnerController.ShortenUrl (Service) in 10450.48ms
+2024-02-16 23:05:54.933 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2024-02-16 23:05:54.937 +05:30 [DBG] 'QuickDbContext' disposed.
+2024-02-16 23:05:54.943 +05:30 [DBG] Disposing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:05:54.946 +05:30 [DBG] Disposed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (2ms).
+2024-02-16 23:05:54.949 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7297/api - 200 18 application/json; charset=utf-8 10572.8204ms
+2024-02-16 23:06:10.762 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" received FIN.
+2024-02-16 23:06:10.769 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" is closed. The last processed stream ID was 1.
+2024-02-16 23:06:10.770 +05:30 [DBG] The connection queue processing loop for 0HN1F2M9SLL8K completed.
+2024-02-16 23:06:10.779 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:06:10.782 +05:30 [DBG] Connection id "0HN1F2M9SLL8K" stopped.
+2024-02-16 23:06:27.222 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" accepted.
+2024-02-16 23:06:27.224 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" started.
+2024-02-16 23:06:27.229 +05:30 [DBG] Connection 0HN1F2M9SLL8L established using the following protocol: "Tls12"
+2024-02-16 23:06:27.240 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/api/d - null null
+2024-02-16 23:06:27.246 +05:30 [DBG] The request path  does not match the path filter
+2024-02-16 23:06:27.248 +05:30 [DBG] 1 candidate(s) found for the request path '/api/d'
+2024-02-16 23:06:27.249 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern 'api/{key}' is valid for the request path '/api/d'
+2024-02-16 23:06:27.251 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:27.252 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:27.260 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2024-02-16 23:06:27.263 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-16 23:06:27.264 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-02-16 23:06:27.266 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-16 23:06:27.268 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-16 23:06:27.269 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-16 23:06:27.275 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:06:27.287 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:06:27.289 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2024-02-16 23:06:27.292 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2024-02-16 23:06:27.294 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:06:27.295 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:06:27.296 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2024-02-16 23:06:27.298 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2024-02-16 23:06:27.416 +05:30 [DBG] Entity Framework Core 8.0.2 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-02-16 23:06:27.482 +05:30 [DBG] Compiling query expression: 
+'DbSet<Shortner>()
+    .Where(u => u.GeneratedKey == __key_0)
+    .Select(u => u.URL)
+    .FirstOrDefault()'
+2024-02-16 23:06:27.696 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<string>(
+    asyncEnumerable: new SingleQueryingEnumerable<string>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT TOP(1) s.URL
+            FROM Shortner AS s
+            WHERE s.GeneratedKey == @__key_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, string>, 
+        Data.QuickDb.QuickDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-02-16 23:06:27.735 +05:30 [DBG] Creating DbConnection.
+2024-02-16 23:06:27.737 +05:30 [DBG] Created DbConnection. (1ms).
+2024-02-16 23:06:27.738 +05:30 [DBG] Opening connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:27.740 +05:30 [DBG] Opened connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:27.742 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-16 23:06:27.742 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-02-16 23:06:27.743 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-02-16 23:06:27.745 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:06:27.870 +05:30 [INF] Executed DbCommand (125ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:06:27.878 +05:30 [DBG] Closing data reader to 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:27.881 +05:30 [DBG] A data reader for 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' is being disposed after spending 5ms reading results.
+2024-02-16 23:06:27.882 +05:30 [DBG] Closing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:27.883 +05:30 [DBG] Closed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (1ms).
+2024-02-16 23:06:27.886 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-02-16 23:06:27.890 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-02-16 23:06:27.891 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-02-16 23:06:27.895 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-02-16 23:06:27.897 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-02-16 23:06:27.915 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 639.5366ms
+2024-02-16 23:06:27.917 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:27.919 +05:30 [DBG] 'QuickDbContext' disposed.
+2024-02-16 23:06:27.920 +05:30 [DBG] Disposing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:27.923 +05:30 [DBG] Disposed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (2ms).
+2024-02-16 23:06:27.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/api/d - 404 162 application/problem+json; charset=utf-8 685.2873ms
+2024-02-16 23:06:40.763 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" received FIN.
+2024-02-16 23:06:40.765 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" is closed. The last processed stream ID was 1.
+2024-02-16 23:06:40.765 +05:30 [DBG] The connection queue processing loop for 0HN1F2M9SLL8L completed.
+2024-02-16 23:06:40.766 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:06:40.783 +05:30 [DBG] Connection id "0HN1F2M9SLL8L" stopped.
+2024-02-16 23:06:50.462 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" accepted.
+2024-02-16 23:06:50.475 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" started.
+2024-02-16 23:06:50.478 +05:30 [DBG] Connection 0HN1F2M9SLL8M established using the following protocol: "Tls12"
+2024-02-16 23:06:50.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/api/ae01eb1d - null null
+2024-02-16 23:06:50.499 +05:30 [DBG] The request path  does not match the path filter
+2024-02-16 23:06:50.501 +05:30 [DBG] 1 candidate(s) found for the request path '/api/ae01eb1d'
+2024-02-16 23:06:50.503 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern 'api/{key}' is valid for the request path '/api/ae01eb1d'
+2024-02-16 23:06:50.504 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:50.506 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:50.507 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2024-02-16 23:06:50.510 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-16 23:06:50.511 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-02-16 23:06:50.515 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-16 23:06:50.518 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-16 23:06:50.520 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-16 23:06:50.523 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:06:50.527 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:06:50.528 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2024-02-16 23:06:50.530 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2024-02-16 23:06:50.534 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:06:50.536 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:06:50.537 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2024-02-16 23:06:50.539 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2024-02-16 23:06:50.560 +05:30 [DBG] Entity Framework Core 8.0.2 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-02-16 23:06:50.571 +05:30 [DBG] Creating DbConnection.
+2024-02-16 23:06:50.572 +05:30 [DBG] Created DbConnection. (0ms).
+2024-02-16 23:06:50.573 +05:30 [DBG] Opening connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:50.574 +05:30 [DBG] Opened connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:50.576 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-16 23:06:50.577 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-02-16 23:06:50.578 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-02-16 23:06:50.579 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:06:50.707 +05:30 [INF] Executed DbCommand (127ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:06:50.720 +05:30 [DBG] Closing data reader to 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:50.722 +05:30 [DBG] A data reader for 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' is being disposed after spending 10ms reading results.
+2024-02-16 23:06:50.724 +05:30 [DBG] Closing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:50.726 +05:30 [DBG] Closed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (1ms).
+2024-02-16 23:06:50.729 +05:30 [INF] Executing RedirectResult, redirecting to https://www.cashify.in/buy-refurbished-laptops/renewed-macbook-pro-2019-15-intel-core-i9-refurbished/137504?__utmrg=gas2iphonet2&utm_source=google&utm_medium=cpc&utm_campaign=store_pmax_apple_tier_2&utm_term=&utm_content=&gad_source=1&gclid=Cj0KCQiAoKeuBhCoARIsAB4WxtfFwn5xFLhNkNpACOtzUQJs1z-l_Cg_PXmFloiGo4DnhmEX5zpVCzYaApSOEALw_wcB&variantDrawer=1.
+2024-02-16 23:06:50.732 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 209.3389ms
+2024-02-16 23:06:50.734 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:06:50.735 +05:30 [DBG] 'QuickDbContext' disposed.
+2024-02-16 23:06:50.736 +05:30 [DBG] Disposing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:06:50.738 +05:30 [DBG] Disposed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (1ms).
+2024-02-16 23:06:50.740 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/api/ae01eb1d - 302 0 null 254.4526ms
+2024-02-16 23:06:55.770 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" received FIN.
+2024-02-16 23:06:55.775 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" is closed. The last processed stream ID was 1.
+2024-02-16 23:06:55.775 +05:30 [DBG] The connection queue processing loop for 0HN1F2M9SLL8M completed.
+2024-02-16 23:06:55.778 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:06:55.797 +05:30 [DBG] Connection id "0HN1F2M9SLL8M" stopped.
+2024-02-16 23:07:15.984 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" accepted.
+2024-02-16 23:07:16.012 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" started.
+2024-02-16 23:07:16.021 +05:30 [DBG] Connection 0HN1F2M9SLL8N established using the following protocol: "Tls12"
+2024-02-16 23:07:16.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/api/eaf40608 - null null
+2024-02-16 23:07:16.037 +05:30 [DBG] The request path  does not match the path filter
+2024-02-16 23:07:16.041 +05:30 [DBG] 1 candidate(s) found for the request path '/api/eaf40608'
+2024-02-16 23:07:16.044 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern 'api/{key}' is valid for the request path '/api/eaf40608'
+2024-02-16 23:07:16.046 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:07:16.048 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:07:16.049 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2024-02-16 23:07:16.052 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-02-16 23:07:16.054 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-02-16 23:07:16.059 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-02-16 23:07:16.062 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-02-16 23:07:16.065 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-02-16 23:07:16.067 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:07:16.069 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2024-02-16 23:07:16.070 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2024-02-16 23:07:16.075 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2024-02-16 23:07:16.077 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:07:16.079 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2024-02-16 23:07:16.081 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2024-02-16 23:07:16.083 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2024-02-16 23:07:16.085 +05:30 [DBG] Entity Framework Core 8.0.2 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.0+2539d1f4bd0d429cbae20336d531d14938a54297' with options: None
+2024-02-16 23:07:16.088 +05:30 [DBG] Creating DbConnection.
+2024-02-16 23:07:16.092 +05:30 [DBG] Created DbConnection. (3ms).
+2024-02-16 23:07:16.093 +05:30 [DBG] Opening connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:07:16.096 +05:30 [DBG] Opened connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:07:16.097 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-02-16 23:07:16.098 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-02-16 23:07:16.100 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-02-16 23:07:16.102 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:07:16.227 +05:30 [INF] Executed DbCommand (125ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2024-02-16 23:07:16.231 +05:30 [DBG] Closing data reader to 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:07:16.234 +05:30 [DBG] A data reader for 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' is being disposed after spending 3ms reading results.
+2024-02-16 23:07:16.238 +05:30 [DBG] Closing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:07:16.241 +05:30 [DBG] Closed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (3ms).
+2024-02-16 23:07:16.244 +05:30 [INF] Executing RedirectResult, redirecting to https://dev.to/appwrite/build-a-todo-api-with-net-and-appwrite-218d.
+2024-02-16 23:07:16.245 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 178.478ms
+2024-02-16 23:07:16.247 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2024-02-16 23:07:16.248 +05:30 [DBG] 'QuickDbContext' disposed.
+2024-02-16 23:07:16.249 +05:30 [DBG] Disposing connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432'.
+2024-02-16 23:07:16.251 +05:30 [DBG] Disposed connection to database 'hklkhwkb' on server 'tcp://tiny.db.elephantsql.com:5432' (1ms).
+2024-02-16 23:07:16.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/api/eaf40608 - 302 0 null 228.1526ms
+2024-02-16 23:07:20.786 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" received FIN.
+2024-02-16 23:07:20.949 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" is closed. The last processed stream ID was 1.
+2024-02-16 23:07:20.949 +05:30 [DBG] The connection queue processing loop for 0HN1F2M9SLL8N completed.
+2024-02-16 23:07:21.029 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-02-16 23:07:21.049 +05:30 [DBG] Connection id "0HN1F2M9SLL8N" stopped.
