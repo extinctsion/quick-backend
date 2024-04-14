@@ -2220,19 +2220,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\extinctsion\\.nuget\\packages\\": {}
+    "C:\\Users\\aditya.s\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-      "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\obj\\",
+      "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\aditya.s\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aditya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2252,6 +2252,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2281,7 +2286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

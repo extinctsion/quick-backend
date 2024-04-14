@@ -226,6 +226,7 @@ ServiceFabricBackup/
 *.xsd.cs
 OpenCover/
 ASALocalRun/
+
 *.bin
 *.binlog
 *.nvuser
@@ -249,4 +250,3 @@ FodyWeavers.xsd
 *.msm
 *.msp
 kps-cosign.key
-/.vs/ProjectEvaluation/quickurl.metadata.v7.bin

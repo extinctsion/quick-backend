@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj": {}
+    "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
+    "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\obj\\",
+        "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\aditya.s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aditya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
-                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj"
+              "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj"
               }
             }
           }
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
+    "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
+        "projectUniqueName": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\Interface.csproj",
         "projectName": "Interface",
-        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj",
-        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\obj\\",
+        "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\Interface.csproj",
+        "packagesPath": "C:\\Users\\aditya.s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aditya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
-                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj"
+              "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj"
               }
             }
           }
@@ -107,6 +112,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -134,21 +144,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj": {
+    "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Model\\obj\\",
+        "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\aditya.s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aditya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,6 +178,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -197,21 +212,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj": {
+    "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\extinctsion\\.nuget\\packages\\",
-        "outputPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\aditya.s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\extinctsion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aditya.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,11 +240,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj": {
-                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Data\\Data.csproj"
+              "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Data\\Data.csproj"
               },
-              "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj": {
-                "projectPath": "D:\\ADI\\C\\js\\DotNetAPIS\\QuickURL\\backend\\quick-backend\\Interface\\Interface.csproj"
+              "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\Interface.csproj": {
+                "projectPath": "C:\\Users\\aditya.s\\OneDrive - Taazaa Tech Pvt Ltd\\Desktop\\quick-backend\\quick-backend\\Interface\\Interface.csproj"
               }
             }
           }
@@ -238,6 +253,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -259,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

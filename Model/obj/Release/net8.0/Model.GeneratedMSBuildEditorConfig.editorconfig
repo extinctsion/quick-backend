@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Model
-build_property.ProjectDir = D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Model\
+build_property.ProjectDir = C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Model\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

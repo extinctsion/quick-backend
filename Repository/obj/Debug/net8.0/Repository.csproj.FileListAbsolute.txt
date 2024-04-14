@@ -18,3 +18,23 @@ D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\obj\Debug\net8.0\ref\Repository.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\bin\Debug\net8.0\Interface.dll
 D:\ADI\C\js\DotNetAPIS\QuickURL\backend\quick-backend\Repository\bin\Debug\net8.0\Interface.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Repository.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Repository.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Data.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Interface.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Model.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Data.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Interface.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\bin\Debug\net8.0\Model.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\Repository.pdb
+C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Repository\obj\Debug\net8.0\ref\Repository.dll
