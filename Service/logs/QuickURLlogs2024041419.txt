@@ -1,0 +1,53 @@
+2024-04-14 19:37:09.042 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-14 19:37:09.204 +05:30 [DBG] Hosting starting
+2024-04-14 19:37:09.630 +05:30 [INF] Now listening on: https://localhost:7297
+2024-04-14 19:37:09.631 +05:30 [INF] Now listening on: http://localhost:5152
+2024-04-14 19:37:09.632 +05:30 [DBG] Loaded hosting startup assembly Service
+2024-04-14 19:37:09.634 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-14 19:37:09.635 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-14 19:37:09.636 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-14 19:37:09.638 +05:30 [INF] Hosting environment: Development
+2024-04-14 19:37:09.639 +05:30 [INF] Content root path: C:\Users\aditya.s\OneDrive - Taazaa Tech Pvt Ltd\Desktop\quick-backend\quick-backend\Service
+2024-04-14 19:37:09.640 +05:30 [DBG] Hosting started
+2024-04-14 19:37:09.763 +05:30 [DBG] Connection id "0HN2SHGMDQ3G8" accepted.
+2024-04-14 19:37:09.763 +05:30 [DBG] Connection id "0HN2SHGMDQ3G9" accepted.
+2024-04-14 19:37:09.776 +05:30 [DBG] Connection id "0HN2SHGMDQ3G8" started.
+2024-04-14 19:37:09.778 +05:30 [DBG] Connection id "0HN2SHGMDQ3G9" started.
+2024-04-14 19:37:10.873 +05:30 [DBG] Connection id "0HN2SHGMDQ3GA" accepted.
+2024-04-14 19:37:10.895 +05:30 [DBG] Connection id "0HN2SHGMDQ3GA" started.
+2024-04-14 19:37:10.895 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" accepted.
+2024-04-14 19:37:10.913 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" started.
+2024-04-14 19:37:10.982 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" received FIN.
+2024-04-14 19:37:11.016 +05:30 [DBG] Connection 0HN2SHGMDQ3GB established using the following protocol: "Tls12"
+2024-04-14 19:37:11.016 +05:30 [DBG] Connection 0HN2SHGMDQ3GA established using the following protocol: "Tls12"
+2024-04-14 19:37:11.093 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" is closed. The last processed stream ID was 0.
+2024-04-14 19:37:11.099 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-14 19:37:11.106 +05:30 [DBG] The connection queue processing loop for 0HN2SHGMDQ3GB completed.
+2024-04-14 19:37:11.117 +05:30 [DBG] Connection id "0HN2SHGMDQ3GB" stopped.
+2024-04-14 19:37:11.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger - null null
+2024-04-14 19:37:11.646 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-14 19:37:11.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger - 301 0 null 475.3213ms
+2024-04-14 19:37:11.697 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2024-04-14 19:37:11.817 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-14 19:37:11.820 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-14 19:37:11.864 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-14 19:37:11.867 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-14 19:37:11.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 172.7354ms
+2024-04-14 19:37:11.928 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui.css - null null
+2024-04-14 19:37:11.958 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-14 19:37:11.960 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui.css - 200 144929 text/css 32.4573ms
+2024-04-14 19:37:11.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui-bundle.js - null null
+2024-04-14 19:37:11.987 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-14 19:37:11.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-14 19:37:11.989 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2024-04-14 19:37:12.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 64.5753ms
+2024-04-14 19:37:12.086 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-14 19:37:12.094 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 108.36ms
+2024-04-14 19:37:12.126 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-14 19:37:12.132 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 146.6591ms
+2024-04-14 19:37:12.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.143ms
+2024-04-14 19:37:12.399 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2024-04-14 19:37:12.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/favicon-32x32.png - null null
+2024-04-14 19:37:12.436 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-14 19:37:12.439 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/favicon-32x32.png - 200 628 image/png 9.5514ms
+2024-04-14 19:37:12.510 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.0549ms
