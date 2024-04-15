@@ -250,3 +250,5 @@ FodyWeavers.xsd
 *.msm
 *.msp
 kps-cosign.key
+.Data/*
+.vs/*
