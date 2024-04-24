@@ -17,8 +17,8 @@ namespace Service.Service
         {
             if (Uri.TryCreate(originalUrl, UriKind.Absolute, out _))
             {
-                var key = Guid.NewGuid().ToString().Substring(0, 8);
-                var mapping = new Shortner
+                var key = Guid.NewGuid().ToString()[..8];
+                Shortner mapping = new()
                 {
                     CreatedAt = DateTime.UtcNow,
                     LastUpdatedAt = DateTime.UtcNow,
@@ -31,7 +31,6 @@ namespace Service.Service
 
                 return Ok(new { Key = key });
             }
-
             return BadRequest("Invalid URL");
         }
 

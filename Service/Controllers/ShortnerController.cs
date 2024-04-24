@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Xml.Serialization;
-using System;
-using Data.QuickDb;
-using Model.URLShortner;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using Service.Service;
 
 namespace Service.Controllers
