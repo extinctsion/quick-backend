@@ -3,7 +3,10 @@ using Model.URLShortner;
 
 namespace Data.QuickDb
 {
-    public class QuickDbContext: DbContext
+    /// <summary>
+    /// QuickURL DB
+    /// </summary>
+    public class QuickDbContext : DbContext
     {
         public QuickDbContext(DbContextOptions<QuickDbContext> options) : base(options)
         {
