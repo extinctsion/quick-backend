@@ -1,6 +1,5 @@
 ﻿using Interface.ShortnerInterface.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Model.URLShortner;
 
 namespace Service.Service

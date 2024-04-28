@@ -6,16 +6,30 @@ using System.Threading.Tasks;
 
 namespace Model.URLShortner
 {
+    /// <summary>
+    /// shortener View model
+    /// </summary>
     public class ShortnerViewModel
     {
+        /// <summary>
+        /// get or set Id
+        /// </summary>
         public long? Id { get; set; }
-
+        /// <summary>
+        /// get or set CreatedAt
+        /// </summary>
         public DateTime? CreatedAt { get; set; }
-
+        /// <summary>
+        /// get or set LastUpdatedAt
+        /// </summary>
         public DateTime? LastUpdatedAt { get; set; }
-
+        /// <summary>
+        /// get or set GeneratedKey
+        /// </summary>
         public string? GeneratedKey { get; set; }
-
+        /// <summary>
+        /// get or set URL
+        /// </summary>
         public string? URL { get; set; }
     }
 }
