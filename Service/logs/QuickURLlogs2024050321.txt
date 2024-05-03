@@ -1,0 +1,44 @@
+2024-05-03 21:36:14.278 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-03 21:36:15.240 +00:00 [DBG] Hosting starting
+2024-05-03 21:36:17.326 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 95C5839D8316CFEA57B48223CE6FF9D663C76A76)
+2024-05-03 21:36:22.108 +00:00 [INF] Now listening on: http://[::]:8080
+2024-05-03 21:36:22.111 +00:00 [INF] Now listening on: https://[::]:8081
+2024-05-03 21:36:22.115 +00:00 [DBG] Loaded hosting startup assembly Service
+2024-05-03 21:36:22.119 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-03 21:36:22.125 +00:00 [INF] Hosting environment: Development
+2024-05-03 21:36:22.133 +00:00 [INF] Content root path: /app
+2024-05-03 21:36:22.136 +00:00 [DBG] Hosting started
+2024-05-03 21:36:26.065 +00:00 [DBG] Connection id "0HN3BN4AUN17P" accepted.
+2024-05-03 21:36:26.071 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" accepted.
+2024-05-03 21:36:26.071 +00:00 [DBG] Connection id "0HN3BN4AUN17P" started.
+2024-05-03 21:36:26.074 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" started.
+2024-05-03 21:36:26.199 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" received FIN.
+2024-05-03 21:36:26.253 +00:00 [DBG] Connection 0HN3BN4AUN17Q established using the following protocol: "Tls13"
+2024-05-03 21:36:26.256 +00:00 [DBG] Connection 0HN3BN4AUN17P established using the following protocol: "Tls13"
+2024-05-03 21:36:26.366 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" is closed. The last processed stream ID was 0.
+2024-05-03 21:36:26.371 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-03 21:36:26.402 +00:00 [DBG] The connection queue processing loop for 0HN3BN4AUN17Q completed.
+2024-05-03 21:36:26.431 +00:00 [DBG] Connection id "0HN3BN4AUN17Q" stopped.
+2024-05-03 21:36:26.556 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger - null null
+2024-05-03 21:36:26.580 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-03 21:36:26.729 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger - 301 0 null 182.7322ms
+2024-05-03 21:36:26.752 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/index.html - null null
+2024-05-03 21:36:27.444 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/index.html - 200 null text/html;charset=utf-8 691.725ms
+2024-05-03 21:36:27.482 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/swagger-ui.css - null null
+2024-05-03 21:36:27.489 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/swagger-ui-bundle.js - null null
+2024-05-03 21:36:27.491 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-03 21:36:27.671 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-03 21:36:27.675 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/swagger-ui.css - 200 144929 text/css 194.3082ms
+2024-05-03 21:36:27.780 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-03 21:36:27.785 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 294.6664ms
+2024-05-03 21:36:28.126 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-03 21:36:28.129 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 640.5129ms
+2024-05-03 21:36:29.382 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/v1/swagger.json - null null
+2024-05-03 21:36:29.503 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/favicon-32x32.png - null null
+2024-05-03 21:36:29.507 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-03 21:36:29.510 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/favicon-32x32.png - 200 628 image/png 8.0013ms
+2024-05-03 21:36:29.868 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 487.9719ms
+2024-05-03 21:37:04.775 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/index.html - null null
+2024-05-03 21:37:04.786 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/index.html - 200 null text/html;charset=utf-8 10.9038ms
+2024-05-03 21:37:05.917 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32770/swagger/v1/swagger.json - null null
+2024-05-03 21:37:05.932 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32770/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.1746ms
