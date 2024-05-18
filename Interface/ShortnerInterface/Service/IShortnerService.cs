@@ -12,7 +12,7 @@ namespace Service.Service
         /// </summary>
         /// <param name="originalUrl"></param>
         /// <returns>unique key</returns>
-        Task<IActionResult> ShortenUrlKeyGenerator(string originalUrl);
+        Task<IActionResult> ShortenUrlKeyGenerator(string originalUrl, string domain);
         /// <summary>
         /// Method that redirects to Main URL
         /// </summary>

@@ -12,10 +12,11 @@ namespace Service.Service
             this._shortnerRepository = shortnerRepository;
         }
 
-        public async Task<IActionResult> ShortenUrlKeyGenerator(string originalUrl)
+        public async Task<IActionResult> ShortenUrlKeyGenerator(string originalUrl, string domain)
         {
             if (Uri.TryCreate(originalUrl, UriKind.Absolute, out _))
             {
+                
                 var key = Guid.NewGuid().ToString()[..8];
                 Shortner mapping = new()
                 {
@@ -28,7 +29,7 @@ namespace Service.Service
                 // Generate a unique key for the shortened URL (you may use a library for this)
                 await this._shortnerRepository.CreateShortendToken(mapping);
 
-                return Ok(new { Key = key });
+                return Ok(new { QuickURl = domain+'/'+key });
             }
             return BadRequest("Invalid URL");
         }
@@ -42,7 +43,7 @@ namespace Service.Service
                 return Redirect(mapping);
             }
 
-            return NotFound();
+            return NotFound("Key not found");
         }
     }
 }

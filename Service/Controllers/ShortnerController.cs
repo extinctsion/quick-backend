@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Mvc;
 using Service.Service;
 
 namespace Service.Controllers
 {
     [Route("api")]
     [ApiController]
-    public class ShortnerController
+    public class ShortnerController : ControllerBase
     {
         private readonly IShortnerService _shortnerService;
 
@@ -23,7 +24,8 @@ namespace Service.Controllers
         [HttpPost]
         public async Task<IActionResult> ShortenUrl([FromBody] string originalUrl)
         {
-            return await this._shortnerService.ShortenUrlKeyGenerator(originalUrl);
+            var domain = HttpContext.Request.GetDisplayUrl();
+            return await this._shortnerService.ShortenUrlKeyGenerator(originalUrl, domain);
         }
     }
 }
