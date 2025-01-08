@@ -1,7 +1,6 @@
 using Data.QuickDb;
 using Interface.ShortnerInterface.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Repository.ShortnerRepository;
 using Serilog;
 using Service.Service;
