@@ -13,6 +13,8 @@ Log.Logger = new LoggerConfiguration()
     .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 
 //Adding Serilogger to Invoice generator app
 builder.Host.UseSerilog();
@@ -39,6 +41,8 @@ builder.Services.AddScoped<IShortnerService, ShortnerService>();
 
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())

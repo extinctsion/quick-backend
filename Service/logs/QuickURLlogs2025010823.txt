@@ -1,0 +1,518 @@
+2025-01-08 23:32:26.193 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-08 23:32:26.359 +05:30 [DBG] Hosting starting
+2025-01-08 23:32:26.930 +05:30 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-01-08 23:32:26.934 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-08 23:32:27.063 +05:30 [INF] Now listening on: https://localhost:49905
+2025-01-08 23:32:27.064 +05:30 [INF] Now listening on: http://localhost:49906
+2025-01-08 23:32:27.064 +05:30 [DBG] Loaded hosting startup assembly Service
+2025-01-08 23:32:27.064 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-08 23:32:27.064 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-08 23:32:27.064 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-08 23:32:27.073 +05:30 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:32:27.074 +05:30 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:32:27.082 +05:30 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v9.0.0.0.
+2025-01-08 23:32:27.271 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" accepted.
+2025-01-08 23:32:27.291 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" started.
+2025-01-08 23:32:27.341 +05:30 [DBG] Connection id "0HN9G1QEAP1M5" accepted.
+2025-01-08 23:32:27.343 +05:30 [DBG] Connection id "0HN9G1QEAP1M5" started.
+2025-01-08 23:32:27.370 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 23:32:27.370 +05:30 [INF] Hosting environment: Development
+2025-01-08 23:32:27.371 +05:30 [INF] Content root path: C:\Users\extinctsion\Desktop\New folder\quick-backend\Service
+2025-01-08 23:32:27.371 +05:30 [DBG] Hosting started
+2025-01-08 23:32:27.410 +05:30 [DBG] Connection 0HN9G1QEAP1M4 established using the following protocol: "Tls12"
+2025-01-08 23:32:27.410 +05:30 [DBG] Connection 0HN9G1QEAP1M5 established using the following protocol: "Tls12"
+2025-01-08 23:32:27.415 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" received FIN.
+2025-01-08 23:32:27.454 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" is closed. The last processed stream ID was 0.
+2025-01-08 23:32:27.476 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-01-08 23:32:27.482 +05:30 [DBG] The connection queue processing loop for 0HN9G1QEAP1M4 completed.
+2025-01-08 23:32:27.486 +05:30 [DBG] Connection id "0HN9G1QEAP1M4" stopped.
+2025-01-08 23:32:27.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger - null null
+2025-01-08 23:32:27.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2025-01-08 23:32:27.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger - 301 0 null 257.76ms
+2025-01-08 23:32:27.952 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-08 23:32:27.959 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-08 23:32:27.973 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-08 23:32:27.974 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-08 23:32:27.975 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 174.0169ms
+2025-01-08 23:32:28.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.css - null null
+2025-01-08 23:32:28.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui.css - null null
+2025-01-08 23:32:28.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui-bundle.js - null null
+2025-01-08 23:32:28.050 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-08 23:32:28.064 +05:30 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-01-08 23:32:28.065 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.css - 200 202 text/css 20.6369ms
+2025-01-08 23:32:28.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.js - null null
+2025-01-08 23:32:28.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 23:32:28.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.js - 200 null application/javascript;charset=utf-8 6.7506ms
+2025-01-08 23:32:28.112 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 31.7326ms
+2025-01-08 23:32:28.118 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-01-08 23:32:28.121 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 71.2334ms
+2025-01-08 23:32:28.118 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-01-08 23:32:28.193 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-01-08 23:32:28.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 145.3908ms
+2025-01-08 23:32:28.194 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/swagger-ui.css - 200 152035 text/css 150.2497ms
+2025-01-08 23:32:28.376 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2025-01-08 23:32:28.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 187.0663ms
+2025-01-08 23:32:28.846 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2025-01-08 23:32:28.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.8726ms
+2025-01-08 23:32:28.951 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/favicon-32x32.png - null null
+2025-01-08 23:32:28.953 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-08 23:32:28.953 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/favicon-32x32.png - 200 628 image/png 2.1353ms
+2025-01-08 23:38:56.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2025-01-08 23:38:56.800 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-08 23:38:56.800 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-08 23:38:56.801 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-08 23:38:56.801 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-08 23:38:56.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 7.2743ms
+2025-01-08 23:38:56.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.js - null null
+2025-01-08 23:38:56.873 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 23:38:56.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.js - 200 null application/javascript;charset=utf-8 0.5868ms
+2025-01-08 23:38:56.874 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 1.2851ms
+2025-01-08 23:38:56.989 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2025-01-08 23:38:57.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.0076ms
+2025-01-08 23:38:57.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2025-01-08 23:38:57.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.2925ms
+2025-01-08 23:43:13.848 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7297/ - application/json-patch+json 104
+2025-01-08 23:43:13.850 +05:30 [DBG] POST requests are not supported
+2025-01-08 23:43:13.853 +05:30 [INF] No CORS policy found for the specified request.
+2025-01-08 23:43:13.876 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2025-01-08 23:43:13.877 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)' with route pattern '' is valid for the request path '/'
+2025-01-08 23:43:13.878 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:43:13.884 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:43:13.916 +05:30 [INF] Route matched with {action = "ShortenUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ShortenUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2025-01-08 23:43:13.917 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-08 23:43:13.918 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-08 23:43:13.919 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-08 23:43:13.919 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-08 23:43:13.919 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-08 23:43:13.922 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:43:14.684 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-08 23:43:14.705 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:43:14.727 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' ...
+2025-01-08 23:43:14.731 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' using the name '' in request data ...
+2025-01-08 23:43:14.732 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2025-01-08 23:43:14.733 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2025-01-08 23:43:14.757 +05:30 [DBG] Connection id "0HN9G1QEAP1M5", Request id "0HN9G1QEAP1M5:00000021": started reading request body.
+2025-01-08 23:43:14.757 +05:30 [DBG] Connection id "0HN9G1QEAP1M5", Request id "0HN9G1QEAP1M5:00000021": done reading request body.
+2025-01-08 23:43:14.804 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:43:14.804 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:43:14.804 +05:30 [DBG] Attempting to validate the bound parameter 'originalUrl' of type 'System.String' ...
+2025-01-08 23:43:14.810 +05:30 [DBG] Done attempting to validate the bound parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:43:14.815 +05:30 [INF] Executing action method Service.Controllers.ShortnerController.ShortenUrl (Service) - Validation state: "Valid"
+2025-01-08 23:43:15.318 +05:30 [DBG] Entity Framework Core 9.0.0 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.2+697dd7182173ff3450eddc63b44837fba76331df' with options: None
+2025-01-08 23:43:15.359 +05:30 [DBG] 'QuickDbContext' generated a temporary value for the property 'Shortner.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:43:15.410 +05:30 [DBG] Context 'QuickDbContext' started tracking 'Shortner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:43:15.415 +05:30 [DBG] SaveChanges starting for 'QuickDbContext'.
+2025-01-08 23:43:15.419 +05:30 [DBG] DetectChanges starting for 'QuickDbContext'.
+2025-01-08 23:43:15.430 +05:30 [DBG] DetectChanges completed for 'QuickDbContext'.
+2025-01-08 23:43:15.541 +05:30 [DBG] Creating DbConnection.
+2025-01-08 23:43:15.577 +05:30 [DBG] Created DbConnection. (34ms).
+2025-01-08 23:43:15.582 +05:30 [DBG] Opening connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:17.493 +05:30 [DBG] Opened connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:17.504 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-08 23:43:17.509 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2025-01-08 23:43:17.517 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (13ms).
+2025-01-08 23:43:17.526 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-01-08 23:43:17.844 +05:30 [INF] Executed DbCommand (317ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-01-08 23:43:17.866 +05:30 [DBG] The foreign key property 'Shortner.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-01-08 23:43:17.873 +05:30 [DBG] Closing data reader to 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:17.882 +05:30 [DBG] A data reader for 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' is being disposed after spending 31ms reading results.
+2025-01-08 23:43:17.885 +05:30 [DBG] Closing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:17.890 +05:30 [DBG] Closed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (4ms).
+2025-01-08 23:43:17.901 +05:30 [DBG] An entity of type 'Shortner' tracked by 'QuickDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:43:17.903 +05:30 [DBG] SaveChanges completed for 'QuickDbContext' with 1 entities written to the database.
+2025-01-08 23:43:17.908 +05:30 [INF] Executed action method Service.Controllers.ShortnerController.ShortenUrl (Service), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3089.7018ms.
+2025-01-08 23:43:17.913 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-08 23:43:17.915 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-08 23:43:17.915 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-08 23:43:17.915 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-08 23:43:17.917 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-08 23:43:17.917 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-08 23:43:17.972 +05:30 [INF] Executed action Service.Controllers.ShortnerController.ShortenUrl (Service) in 4050.1162ms
+2025-01-08 23:43:17.973 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:43:17.979 +05:30 [DBG] 'QuickDbContext' disposed.
+2025-01-08 23:43:17.985 +05:30 [DBG] Disposing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:17.988 +05:30 [DBG] Disposed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (2ms).
+2025-01-08 23:43:17.989 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7297/ - 200 47 application/json; charset=utf-8 4140.398ms
+2025-01-08 23:43:36.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297//66f48f14 - null null
+2025-01-08 23:43:36.189 +05:30 [DBG] The request path  does not match the path filter
+2025-01-08 23:43:36.196 +05:30 [DBG] No candidates found for the request path '//66f48f14'
+2025-01-08 23:43:36.197 +05:30 [DBG] Request did not match any endpoints
+2025-01-08 23:43:36.198 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297//66f48f14 - 404 0 null 15.1778ms
+2025-01-08 23:43:36.200 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7297//66f48f14, Response status code: 404
+2025-01-08 23:43:41.093 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/66f48f14 - null null
+2025-01-08 23:43:41.096 +05:30 [DBG] The request path  does not match the path filter
+2025-01-08 23:43:41.102 +05:30 [DBG] 1 candidate(s) found for the request path '/66f48f14'
+2025-01-08 23:43:41.103 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern '{key}' is valid for the request path '/66f48f14'
+2025-01-08 23:43:41.103 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:43:41.104 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:43:41.122 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2025-01-08 23:43:41.122 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-08 23:43:41.123 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-08 23:43:41.123 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-08 23:43:41.123 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-08 23:43:41.123 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-08 23:43:41.123 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:43:41.126 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:43:41.127 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2025-01-08 23:43:41.129 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2025-01-08 23:43:41.131 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:43:41.131 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:43:41.131 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2025-01-08 23:43:41.134 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2025-01-08 23:43:41.134 +05:30 [INF] Executing action method Service.Controllers.ShortnerController.RedirectUrl (Service) - Validation state: "Valid"
+2025-01-08 23:43:41.321 +05:30 [DBG] Entity Framework Core 9.0.0 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.2+697dd7182173ff3450eddc63b44837fba76331df' with options: None
+2025-01-08 23:43:41.478 +05:30 [DBG] Compiling query expression: 
+'DbSet<Shortner>()
+    .Where(u => u.GeneratedKey == __key_0)
+    .Select(u => u.URL)
+    .FirstOrDefault()'
+2025-01-08 23:43:42.014 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<string>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<string>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT TOP(1) s.URL
+            FROM Shortner AS s
+            WHERE s.GeneratedKey == @__key_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT TOP(1) s.URL
+            FROM Shortner AS s
+            WHERE s.GeneratedKey == @__key_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            string value1;
+            value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+            return value1;
+        }, 
+        contextType: Data.QuickDb.QuickDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-01-08 23:43:42.125 +05:30 [DBG] Creating DbConnection.
+2025-01-08 23:43:42.126 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-08 23:43:42.126 +05:30 [DBG] Opening connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:42.127 +05:30 [DBG] Opened connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:42.128 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-08 23:43:42.128 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:43:42.128 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:43:42.128 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:43:42.516 +05:30 [INF] Executed DbCommand (388ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:43:42.525 +05:30 [DBG] Closing data reader to 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:42.527 +05:30 [DBG] A data reader for 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' is being disposed after spending 10ms reading results.
+2025-01-08 23:43:42.527 +05:30 [DBG] Closing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:42.527 +05:30 [DBG] Closed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:43:42.528 +05:30 [INF] Executed action method Service.Controllers.ShortnerController.RedirectUrl (Service), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1393.5656ms.
+2025-01-08 23:43:42.531 +05:30 [INF] Executing RedirectResult, redirecting to https://cloud.tembo.io/orgs/org_2gGxOSLnyvNO4p2rY31TcYIEsOB/instances/inst_1715337827100_E6ic64_4/home.
+2025-01-08 23:43:42.531 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 1407.7571ms
+2025-01-08 23:43:42.531 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:43:42.531 +05:30 [DBG] 'QuickDbContext' disposed.
+2025-01-08 23:43:42.531 +05:30 [DBG] Disposing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:43:42.531 +05:30 [DBG] Disposed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:43:42.532 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/66f48f14 - 302 0 null 1439.0743ms
+2025-01-08 23:55:45.927 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-08 23:55:46.049 +05:30 [DBG] Hosting starting
+2025-01-08 23:55:46.444 +05:30 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-01-08 23:55:46.448 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-08 23:55:46.541 +05:30 [INF] Now listening on: https://localhost:50756
+2025-01-08 23:55:46.542 +05:30 [INF] Now listening on: http://localhost:50757
+2025-01-08 23:55:46.543 +05:30 [DBG] Loaded hosting startup assembly Service
+2025-01-08 23:55:46.543 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-08 23:55:46.543 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-08 23:55:46.543 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-08 23:55:46.554 +05:30 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:55:46.554 +05:30 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:55:46.564 +05:30 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v9.0.0.0.
+2025-01-08 23:55:46.622 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 23:55:46.623 +05:30 [INF] Hosting environment: Development
+2025-01-08 23:55:46.623 +05:30 [INF] Content root path: C:\Users\extinctsion\Desktop\New folder\quick-backend\Service
+2025-01-08 23:55:46.623 +05:30 [DBG] Hosting started
+2025-01-08 23:55:47.475 +05:30 [DBG] Connection id "0HN9G27FK5JF1" accepted.
+2025-01-08 23:55:47.484 +05:30 [DBG] Connection id "0HN9G27FK5JF1" started.
+2025-01-08 23:55:47.504 +05:30 [DBG] Connection 0HN9G27FK5JF1 established using the following protocol: "Tls12"
+2025-01-08 23:55:47.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2025-01-08 23:55:47.944 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-08 23:55:47.946 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-08 23:55:47.955 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-08 23:55:47.956 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-08 23:55:47.960 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 195.0212ms
+2025-01-08 23:55:48.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.js - null null
+2025-01-08 23:55:48.004 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.js - 200 null application/javascript;charset=utf-8 2.3825ms
+2025-01-08 23:55:48.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 23:55:48.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 15.9864ms
+2025-01-08 23:55:48.123 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2025-01-08 23:55:48.186 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.4681ms
+2025-01-08 23:55:48.266 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2025-01-08 23:55:48.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.4175ms
+2025-01-08 23:56:04.864 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7297/ - application/json-patch+json 60
+2025-01-08 23:56:04.866 +05:30 [DBG] POST requests are not supported
+2025-01-08 23:56:04.868 +05:30 [INF] No CORS policy found for the specified request.
+2025-01-08 23:56:04.891 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2025-01-08 23:56:04.891 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)' with route pattern '' is valid for the request path '/'
+2025-01-08 23:56:04.892 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:56:04.898 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:56:04.918 +05:30 [INF] Route matched with {action = "ShortenUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ShortenUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2025-01-08 23:56:04.921 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-08 23:56:04.921 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-08 23:56:04.923 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-08 23:56:04.923 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-08 23:56:04.923 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-08 23:56:04.925 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:05.044 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-01-08 23:56:05.063 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:05.073 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' ...
+2025-01-08 23:56:05.075 +05:30 [DBG] Attempting to bind parameter 'originalUrl' of type 'System.String' using the name '' in request data ...
+2025-01-08 23:56:05.076 +05:30 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2025-01-08 23:56:05.077 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2025-01-08 23:56:05.088 +05:30 [DBG] Connection id "0HN9G27FK5JF1", Request id "0HN9G27FK5JF1:0000000B": started reading request body.
+2025-01-08 23:56:05.089 +05:30 [DBG] Connection id "0HN9G27FK5JF1", Request id "0HN9G27FK5JF1:0000000B": done reading request body.
+2025-01-08 23:56:05.123 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:56:05.123 +05:30 [DBG] Done attempting to bind parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:56:05.123 +05:30 [DBG] Attempting to validate the bound parameter 'originalUrl' of type 'System.String' ...
+2025-01-08 23:56:05.131 +05:30 [DBG] Done attempting to validate the bound parameter 'originalUrl' of type 'System.String'.
+2025-01-08 23:56:05.136 +05:30 [INF] Executing action method Service.Controllers.ShortnerController.ShortenUrl (Service) - Validation state: "Valid"
+2025-01-08 23:56:05.584 +05:30 [DBG] Entity Framework Core 9.0.0 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.2+697dd7182173ff3450eddc63b44837fba76331df' with options: None
+2025-01-08 23:56:05.623 +05:30 [DBG] 'QuickDbContext' generated a temporary value for the property 'Shortner.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:56:05.671 +05:30 [DBG] Context 'QuickDbContext' started tracking 'Shortner' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:56:05.675 +05:30 [DBG] SaveChanges starting for 'QuickDbContext'.
+2025-01-08 23:56:05.679 +05:30 [DBG] DetectChanges starting for 'QuickDbContext'.
+2025-01-08 23:56:05.690 +05:30 [DBG] DetectChanges completed for 'QuickDbContext'.
+2025-01-08 23:56:05.798 +05:30 [DBG] Creating DbConnection.
+2025-01-08 23:56:05.824 +05:30 [DBG] Created DbConnection. (25ms).
+2025-01-08 23:56:05.829 +05:30 [DBG] Opening connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:07.752 +05:30 [DBG] Opened connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:07.759 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-08 23:56:07.766 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-01-08 23:56:07.772 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (12ms).
+2025-01-08 23:56:07.780 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-01-08 23:56:08.063 +05:30 [INF] Executed DbCommand (283ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?' (DbType = DateTime), @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Shortner" ("CreatedAt", "GeneratedKey", "LastUpdatedAt", "URL")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2025-01-08 23:56:08.081 +05:30 [DBG] The foreign key property 'Shortner.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-01-08 23:56:08.088 +05:30 [DBG] Closing data reader to 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:08.096 +05:30 [DBG] A data reader for 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' is being disposed after spending 28ms reading results.
+2025-01-08 23:56:08.100 +05:30 [DBG] Closing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:08.104 +05:30 [DBG] Closed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (4ms).
+2025-01-08 23:56:08.116 +05:30 [DBG] An entity of type 'Shortner' tracked by 'QuickDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-01-08 23:56:08.118 +05:30 [DBG] SaveChanges completed for 'QuickDbContext' with 1 entities written to the database.
+2025-01-08 23:56:08.123 +05:30 [INF] Executed action method Service.Controllers.ShortnerController.ShortenUrl (Service), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2984.3402ms.
+2025-01-08 23:56:08.128 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2025-01-08 23:56:08.130 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-01-08 23:56:08.131 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-01-08 23:56:08.131 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-01-08 23:56:08.132 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-01-08 23:56:08.133 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-08 23:56:08.192 +05:30 [INF] Executed action Service.Controllers.ShortnerController.ShortenUrl (Service) in 3266.4642ms
+2025-01-08 23:56:08.193 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.ShortenUrl (Service)'
+2025-01-08 23:56:08.198 +05:30 [DBG] 'QuickDbContext' disposed.
+2025-01-08 23:56:08.203 +05:30 [DBG] Disposing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:08.205 +05:30 [DBG] Disposed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (1ms).
+2025-01-08 23:56:08.205 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7297/ - 200 46 application/json; charset=utf-8 3341.582ms
+2025-01-08 23:56:31.079 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/2b634fd6 - null null
+2025-01-08 23:56:31.087 +05:30 [DBG] The request path  does not match the path filter
+2025-01-08 23:56:31.093 +05:30 [DBG] 1 candidate(s) found for the request path '/2b634fd6'
+2025-01-08 23:56:31.094 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern '{key}' is valid for the request path '/2b634fd6'
+2025-01-08 23:56:31.094 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:31.094 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:31.103 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2025-01-08 23:56:31.103 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-08 23:56:31.103 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-08 23:56:31.103 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-08 23:56:31.103 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-08 23:56:31.103 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-08 23:56:31.103 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:31.104 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:31.105 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2025-01-08 23:56:31.105 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2025-01-08 23:56:31.107 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:56:31.107 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:56:31.107 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2025-01-08 23:56:31.108 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2025-01-08 23:56:31.109 +05:30 [INF] Executing action method Service.Controllers.ShortnerController.RedirectUrl (Service) - Validation state: "Valid"
+2025-01-08 23:56:31.186 +05:30 [DBG] Entity Framework Core 9.0.0 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.2+697dd7182173ff3450eddc63b44837fba76331df' with options: None
+2025-01-08 23:56:31.237 +05:30 [DBG] Compiling query expression: 
+'DbSet<Shortner>()
+    .Where(u => u.GeneratedKey == __key_0)
+    .Select(u => u.URL)
+    .FirstOrDefault()'
+2025-01-08 23:56:31.407 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<string>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<string>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT TOP(1) s.URL
+            FROM Shortner AS s
+            WHERE s.GeneratedKey == @__key_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT TOP(1) s.URL
+            FROM Shortner AS s
+            WHERE s.GeneratedKey == @__key_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            string value1;
+            value1 = dataReader.IsDBNull(0) ? default(string) : dataReader.GetString(0);
+            return value1;
+        }, 
+        contextType: Data.QuickDb.QuickDbContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-01-08 23:56:31.460 +05:30 [DBG] Creating DbConnection.
+2025-01-08 23:56:31.460 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-08 23:56:31.460 +05:30 [DBG] Opening connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:31.461 +05:30 [DBG] Opened connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:31.461 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-08 23:56:31.461 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:56:31.461 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:56:31.462 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:56:31.674 +05:30 [INF] Executed DbCommand (213ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:56:31.681 +05:30 [DBG] Closing data reader to 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:31.683 +05:30 [DBG] A data reader for 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' is being disposed after spending 8ms reading results.
+2025-01-08 23:56:31.683 +05:30 [DBG] Closing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:31.683 +05:30 [DBG] Closed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:56:31.684 +05:30 [INF] Executed action method Service.Controllers.ShortnerController.RedirectUrl (Service), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 574.8941ms.
+2025-01-08 23:56:31.687 +05:30 [INF] Executing RedirectResult, redirecting to https://chatgpt.com/c/677ec2ae-1790-800c-9e40-8adbfda0ce88.
+2025-01-08 23:56:31.687 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 584.0413ms
+2025-01-08 23:56:31.687 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:31.688 +05:30 [DBG] 'QuickDbContext' disposed.
+2025-01-08 23:56:31.688 +05:30 [DBG] Disposing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:31.688 +05:30 [DBG] Disposed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:56:31.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/2b634fd6 - 302 0 null 609.2992ms
+2025-01-08 23:56:39.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/2b634fd6 - null null
+2025-01-08 23:56:39.369 +05:30 [DBG] The request path  does not match the path filter
+2025-01-08 23:56:39.371 +05:30 [DBG] 1 candidate(s) found for the request path '/2b634fd6'
+2025-01-08 23:56:39.372 +05:30 [DBG] Endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)' with route pattern '{key}' is valid for the request path '/2b634fd6'
+2025-01-08 23:56:39.372 +05:30 [DBG] Request matched endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:39.373 +05:30 [INF] Executing endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:39.374 +05:30 [INF] Route matched with {action = "RedirectUrl", controller = "Shortner"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RedirectUrl(System.String) on controller Service.Controllers.ShortnerController (Service).
+2025-01-08 23:56:39.375 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-01-08 23:56:39.375 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-01-08 23:56:39.375 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-01-08 23:56:39.375 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-01-08 23:56:39.376 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-01-08 23:56:39.376 +05:30 [DBG] Executing controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:39.382 +05:30 [DBG] Executed controller factory for controller Service.Controllers.ShortnerController (Service)
+2025-01-08 23:56:39.382 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2025-01-08 23:56:39.382 +05:30 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2025-01-08 23:56:39.383 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:56:39.383 +05:30 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-01-08 23:56:39.383 +05:30 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2025-01-08 23:56:39.383 +05:30 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2025-01-08 23:56:39.383 +05:30 [INF] Executing action method Service.Controllers.ShortnerController.RedirectUrl (Service) - Validation state: "Valid"
+2025-01-08 23:56:39.407 +05:30 [DBG] Entity Framework Core 9.0.0 initialized 'QuickDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.2+697dd7182173ff3450eddc63b44837fba76331df' with options: None
+2025-01-08 23:56:39.417 +05:30 [DBG] Creating DbConnection.
+2025-01-08 23:56:39.417 +05:30 [DBG] Created DbConnection. (0ms).
+2025-01-08 23:56:39.417 +05:30 [DBG] Opening connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:39.417 +05:30 [DBG] Opened connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:39.417 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-01-08 23:56:39.417 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:56:39.417 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-01-08 23:56:39.418 +05:30 [DBG] Executing DbCommand [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:56:39.629 +05:30 [INF] Executed DbCommand (211ms) [Parameters=[@__key_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT s."URL"
+FROM "Shortner" AS s
+WHERE s."GeneratedKey" = @__key_0
+LIMIT 1
+2025-01-08 23:56:39.630 +05:30 [DBG] Closing data reader to 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:39.630 +05:30 [DBG] A data reader for 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' is being disposed after spending 0ms reading results.
+2025-01-08 23:56:39.630 +05:30 [DBG] Closing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:39.630 +05:30 [DBG] Closed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:56:39.630 +05:30 [INF] Executed action method Service.Controllers.ShortnerController.RedirectUrl (Service), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 246.8042ms.
+2025-01-08 23:56:39.631 +05:30 [INF] Executing RedirectResult, redirecting to https://chatgpt.com/c/677ec2ae-1790-800c-9e40-8adbfda0ce88.
+2025-01-08 23:56:39.631 +05:30 [INF] Executed action Service.Controllers.ShortnerController.RedirectUrl (Service) in 254.9667ms
+2025-01-08 23:56:39.631 +05:30 [INF] Executed endpoint 'Service.Controllers.ShortnerController.RedirectUrl (Service)'
+2025-01-08 23:56:39.631 +05:30 [DBG] 'QuickDbContext' disposed.
+2025-01-08 23:56:39.631 +05:30 [DBG] Disposing connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432'.
+2025-01-08 23:56:39.631 +05:30 [DBG] Disposed connection to database 'postgres' on server 'tcp://org-extinctsion-inst-quickurl.data-1.use1.tembo.io:5432' (0ms).
+2025-01-08 23:56:39.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/2b634fd6 - 302 0 null 264.8856ms
+2025-01-08 23:58:29.858 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-01-08 23:58:30.119 +05:30 [DBG] Hosting starting
+2025-01-08 23:58:30.949 +05:30 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-01-08 23:58:30.958 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-01-08 23:58:31.171 +05:30 [INF] Now listening on: https://localhost:50786
+2025-01-08 23:58:31.173 +05:30 [INF] Now listening on: http://localhost:50787
+2025-01-08 23:58:31.173 +05:30 [DBG] Loaded hosting startup assembly Service
+2025-01-08 23:58:31.173 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-01-08 23:58:31.173 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-01-08 23:58:31.173 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-01-08 23:58:31.198 +05:30 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:58:31.201 +05:30 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-01-08 23:58:31.218 +05:30 [DBG] Executing API description provider 'JsonPatchOperationsArrayProvider' from assembly Microsoft.AspNetCore.Mvc.NewtonsoftJson v9.0.0.0.
+2025-01-08 23:58:31.346 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-08 23:58:31.347 +05:30 [INF] Hosting environment: Development
+2025-01-08 23:58:31.347 +05:30 [INF] Content root path: C:\Users\extinctsion\Desktop\New folder\quick-backend\Service
+2025-01-08 23:58:31.347 +05:30 [DBG] Hosting started
+2025-01-08 23:58:37.986 +05:30 [DBG] Connection id "0HN9G292E9B0K" accepted.
+2025-01-08 23:58:37.994 +05:30 [DBG] Connection id "0HN9G292E9B0K" started.
+2025-01-08 23:58:38.018 +05:30 [DBG] Connection 0HN9G292E9B0K established using the following protocol: "Tls12"
+2025-01-08 23:58:38.302 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.html - null null
+2025-01-08 23:58:38.442 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-01-08 23:58:38.445 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-01-08 23:58:38.457 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-01-08 23:58:38.459 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-01-08 23:58:38.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-08 23:58:38.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.html - 200 null text/html;charset=utf-8 177.6219ms
+2025-01-08 23:58:38.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/index.js - null null
+2025-01-08 23:58:38.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/index.js - 200 null application/javascript;charset=utf-8 2.3245ms
+2025-01-08 23:58:38.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 18.3662ms
+2025-01-08 23:58:38.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/_vs/browserLink - null null
+2025-01-08 23:58:38.717 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.5454ms
+2025-01-08 23:58:38.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - null null
+2025-01-08 23:58:38.802 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7297/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4618ms

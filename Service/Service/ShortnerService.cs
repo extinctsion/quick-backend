@@ -29,7 +29,7 @@ namespace Service.Service
                 // Generate a unique key for the shortened URL (you may use a library for this)
                 await this._shortnerRepository.CreateShortendToken(mapping);
 
-                return Ok(new { QuickURl = domain+'/'+key });
+                return Ok(new { QuickURl = domain +key });
             }
             return BadRequest("Invalid URL");
         }
