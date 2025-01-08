@@ -1,7 +1,6 @@
 using Data.QuickDb;
 using Interface.ShortnerInterface.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Repository.ShortnerRepository;
 using Serilog;
 using Service.Service;
@@ -12,6 +11,8 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File("logs/QuickURLlogs.txt", rollingInterval: RollingInterval.Hour)
     .CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
+
+builder.AddServiceDefaults();
 
 
 //Adding Serilogger to Invoice generator app
@@ -39,6 +40,8 @@ builder.Services.AddScoped<IShortnerService, ShortnerService>();
 
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
