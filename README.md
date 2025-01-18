@@ -57,7 +57,7 @@ Please ensure your code adheres to the existing style and includes tests if appl
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/mit)
 
 ## Contact
 
